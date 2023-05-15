@@ -1,0 +1,14 @@
+html, body {
+  background-color:#000000;
+  margin: 0px;
+}
+canvas {
+  display:block;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
