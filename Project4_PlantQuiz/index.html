@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link id = "theme" rel="stylesheet" href="css/yummy.css">
+    <title>test</title>
+    <!-- <link rel="icon" type="image/x-icon" href="images/icon.png"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.typekit.net/dfb7siv.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+    <script src="https://unpkg.com/rita"></script>
+</head>
+
+<body>
+    <div id="quiz">
+      <div id="description">
+        <h1> What Plant are You?</h1>
+        <div id="questions">
+          <h3>This is a 10 question quiz that will measure various aspects of your personality and assign you to a plant!
+          </h3>
+        </div>
+        <ul id="answers">
+        </ul>
+        <div style="clear: both"></div>
+        <button id="button" class="button">
+          <h2>Start quiz</h2>
+        </button>
+      </div>
+      </div>
+      <div id="results">
+        <div id="resultDescription">
+          <h1> RESULT </h1>
+       <p>
+        You are a <span id="topScore"></span>!!
+        <span id="description"></span>
+        <span id="botanical"></span>
+        <span id="description2"></span>
+        <br>
+        <div class="italic">"The <span id="plural"></span> <span id="gen"></span>"</div>
+      </p>
+
+
+        <button class="button2" onclick="location.href= 'javascript:window.location.href=window.location.href'" type="button">
+          Restart Quiz</button>
+      </div>
+      </div>
+      <div id="error">
+        <p>There was an error. Please try again</p>
+      </div>
+
+      <script src="quiz.js"></script>
+
+</body>
+
+</html>
